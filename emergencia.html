@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PettConect | Emergencia</title>
+  <link rel="stylesheet" href="styles (emergencia) .css" />
+</head>
+<body>
+  <!-- Barra superior -->
+  <header class="barra_superior">
+    <div class="titulo">Pettconect</div>
+    <div class="botones-derecha">
+
+      <a href="inicio de secion.html"><button class="boton-iniciar">Iniciar Sesión</button></a>
+    </div>
+  </header>
+
+  <!-- Accesos -->
+  <nav class="accesos">
+    <a href="principal.html">Inicio</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="productos.html">Productos</a>
+    <a href="directorio.html">Directorio</a>
+
+  </nav>
+
+  <!-- Botón solicitar teléfonos -->
+<div style="position: absolute; left: 780px; top: 140px;">
+  <a href="telefonos.html">
+    <button class="boton-iniciar">Solicitar teléfonos</button>
+  </a>
+</div>
+
+
+  <!-- Botón peluche -->
+  <a href="proximamente.html" class="float" target="_blank" title="Ayuda">
+    <video alt="Ayuda" class="float-img" autoplay muted loop src="Imagenes/saludo.mp4"></video>
+  </a>
+
+
+
+
+  <!-- Formulario de emergencia -->
+  <div class="container">
+    <h1>Emergencia</h1>
+
+    <label for="veterinaria">Selecciona una veterinaria disponible</label>
+    <select id="veterinaria">
+      <option value="">-- Selecciona una opción --</option>
+      <option value="vet1">Veterinaria 1</option>
+      <option value="vet2">Veterinaria 2</option>
+      <option value="vet3">Veterinaria 3</option>
+    </select>
+
+    <label for="descripcion">¿Qué ocurre con tu mascota?</label>
+    <textarea id="descripcion" placeholder="Ej: No respira, fue atropellada..."></textarea>
+
+    <label for="ubicacion">¿Dónde estás?</label>
+    <input type="text" id="ubicacion" placeholder="Escribe tu dirección o usa ubicación automática">
+    <button class="location-btn">Detectar ubicación</button>
+
+    <label for="telefono">Número de contacto</label>
+    <input type="tel" id="telefono" placeholder="Tu número de celular">
+
+    <button class="ayuda">PEDIR AYUDA YA</button>
+
+    <p class="small-text" id="confirmacion"></p>
+  </div>
+
+</body>
+</html>

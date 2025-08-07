@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PettConect | Agendar Cita</title>
+  <link rel="stylesheet" href="styles (agendar) .css" />
+</head>
+<body>
+
+  <!-- Barra superior -->
+  <header class="barra_superior">
+    <div class="titulo">Pettconect</div>
+    <div class="botones-superiores">
+      <a href="inicio de secion.html"><button class="boton-iniciar">Iniciar Sesión</button></a>
+    </div>
+  </header>
+
+  <!-- Accesos -->
+  <nav class="accesos">
+    <a href="principal.html">Inicio</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="productos.html">Productos</a>
+    <a href="directorio.html">Directorio</a>
+  </nav>
+
+  <!-- Botón peluche -->
+  <a href="proximamente.html" class="float" target="_blank" title="Ayuda">
+    <video alt="Ayuda" class="float-img" autoplay muted loop src="Imagenes/saludo.mp4"></video>
+  </a>
+
+  <!-- Botón emergencia -->
+<a href="emergencia.html" class="pestana-burbuja" title="Soporte">
+  Emergencia
+</a>
+
+  <!-- Contenido principal -->
+  <div class="contenedor">
+    <div class="texto">
+      <h1>Agenda una Cita</h1><br>
+      <br><h2>Conecta con tu veterinaria de confianza</h2>
+      <p>Selecciona la fecha y hora que más te convenga para llevar a tu mascota.</p>
+
+      <form class="formulario-cita" action="#" method="post">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="veterinaria">Selecciona una veterinaria disponible:</label>
+        <select id="veterinaria" name="veterinaria" class="select" required>
+          <option value="">-- Selecciona una opción --</option>
+          <option value="vet1">Veterinaria 1</option>
+          <option value="vet2">Veterinaria 2</option>
+          <option value="vet3">Veterinaria 3</option>
+        </select>
+
+        <label for="mascota">Nombre de tu mascota:</label>
+        <input type="text" id="mascota" name="mascota" required>
+
+        <label for="fecha">Fecha de la cita:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required>
+
+        <label for="motivo">Motivo de la consulta:</label>
+        <textarea id="motivo" name="motivo" rows="4" required></textarea>
+
+        <button class="boton-iniciar" type="submit">Agendar</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

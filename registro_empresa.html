@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PettConect | Registrar Clinica</title>
+  <link rel="stylesheet" href="styles (registro_empresa).css" />
+</head>
+<body>
+  <!-- Barra superior -->
+  <header class="barra_superior">
+    <div class="titulo">Pettconect</div>
+    <div class="botones-derecha">
+
+      <a href="inicio de secion.html"><button class="boton-iniciar">Iniciar Sesión</button></a>
+    </div>
+  </header>
+
+  <!-- Accesos -->
+  <nav class="accesos">
+    <a href="principal.html">Inicio</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="productos.html">Productos</a>
+    <a href="directorio.html">Directorio</a>
+  </nav>
+
+  <!-- en la noria, me pongo a silvar, pido deseos sin fuerza para el juicio final -->
+
+  <!-- Botón peluche -->
+  <a href="proximamente.html" class="float" target="_blank" title="Ayuda">
+    <video alt="Ayuda" class="float-img" autoplay muted loop src="Imagenes/saludo.mp4"></video>
+  </a>
+
+
+    <!-- Botón emergencia -->
+<a href="emergencia.html" class="pestana-burbuja" title="Soporte">
+  Emergencia
+</a>
+
+  <!-- Contenedor principal -->
+  <main class="contenedor">
+
+    <section class="formulario-registro">
+      <h1>Registrar Empresa</h1>
+
+      <form onsubmit="return false">
+
+        <fieldset style="margin-top: 30px; border: 1px solid #ddd; padding: 15px; border-radius: 12px;">
+          <legend style="font-weight: bold; color: #045a6b;">Información para Contacto</legend>
+
+        <p style="margin-top: 20px; font-size: 16px; color: #555;">
+          Para registrar su clínica, por favor póngase en contacto con nosotros.
+        </p> <br>
+
+          <label for="contacto-nombre">Nombre de la Clinica</label>
+          <input type="text" id="contacto-nombre" name="contacto-nombre" required />
+
+          <label for="contacto-nombre">Nombre de contacto</label>
+          <input type="text" id="contacto-nombre" name="contacto-nombre" required />
+
+          <label for="contacto-telefono">Teléfono</label>
+          <input type="tel" id="contacto-telefono" name="contacto-telefono" required />
+
+          <label for="contacto-email">Correo electrónico de contacto</label>
+          <input type="email" id="contacto-email" name="contacto-email" required />
+        </fieldset>
+
+        <button 
+          type="button" 
+          class="boton-terminos" 
+          onclick="window.location.href='condiciones.html'">
+          Terminos y Condiciones
+        </button>
+
+
+        
+        <div class="botones-registro" style="margin-top: 15px;">
+          <button type="button" class="boton-usuario" onclick="window.location.href='registro_usuario.html'">Registrar Usuario</button>
+          <button type="button" class="boton-empresa" onclick="window.location.href='registro_empresa.html'">Registrar Empresa</button>
+          <button type="submit" class="boton-registrar">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+    <div class="guellita">
+      <img src="Imagenes/logo.png" alt="Logo PettConect" />
+    </div>
+
+  </main>
+
+</body>
+</html>

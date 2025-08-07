@@ -1,0 +1,192 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffdf7;
+  color: #333;
+}
+
+/* Barra superior */
+.barra_superior {
+  background-color: #6f9ceb;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_texto {
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+}
+
+.botones-superiores {
+  display: flex;
+  flex-direction: row; 
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.boton-iniciar,
+.boton-emergencia {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.boton-iniciar {
+  background-color: #7967e1;
+}
+
+.boton-iniciar:hover {
+  background-color: #6f9ceb;
+}
+
+.boton-emergencia {
+  background-color: #f27045;
+}
+
+.boton-emergencia:hover {
+  background-color: #e45a2e;
+}
+
+/* Accesos */
+.accesos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 5px 5px;
+  margin-top: -53px;
+  margin-left: 328px;
+  flex-wrap: wrap;
+  width: 42%;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.accesos a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.accesos a:hover {
+  color: #00a9c0;
+}
+
+/* Contenedor principal */
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 80px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* Sección de información del perfil */
+.perfil-info {
+  flex: 1 1 55%;
+  padding: 40px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.perfil-info h1 {
+  font-size: 36px;
+  color: #045a6b;
+  margin-bottom: 25px;
+}
+
+.perfil-info h2 {
+  font-size: 24px;
+  color: #127896;
+  margin-top: 25px;
+}
+
+.perfil-info p, .perfil-info ul {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.perfil-info ul {
+  padding-left: 20px;
+}
+
+/* Botones secundarios */
+.botones-registro {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.boton-usuario,
+.boton-empresa {
+  background-color: #00b5cc;
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.boton-usuario:hover,
+.boton-empresa:hover {
+  background-color: #0099aa;
+}
+
+/* Imagen decorativa */
+.guellita {
+  max-width: 300px;
+  flex: 1 1 30%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.guellita img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Responsivo */
+@media screen and (max-width: 900px) {
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .perfil-info {
+    width: 100%;
+  }
+
+  .guellita {
+    margin-top: 30px;
+  }
+
+  .botones-superiores,
+  .botones-registro {
+    justify-content: center;
+  }
+}
+

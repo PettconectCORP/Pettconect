@@ -158,15 +158,15 @@ body {
 }
 
 .boton-usuario {
-  background-color: #127896;
-}
-
-.boton-usuario:hover {
   background-color: #306bac;
 }
 
+.boton-usuario:hover {
+  background-color: #0f5f6f;
+}
+
 .boton-empresa {
-  background-color: #306bac
+  background-color: #306bac;
 }
 
 .boton-empresa:hover {
@@ -339,5 +339,6 @@ body {
     text-align: center;
   }
 }
+
 
 

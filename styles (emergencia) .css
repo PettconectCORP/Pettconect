@@ -46,7 +46,7 @@ body {
 }
 
 .boton-iniciar:hover {
-  background-color: #6f9ceb;
+  background-color: #306bac;
 }
 
 .boton-emergencia {
@@ -125,7 +125,7 @@ textarea {
 }
 
 .location-btn {
-  background-color: #00a9c0;
+  background-color: #306bac;
   color: white;
   padding: 10px;
   margin-top: 0.5rem;
@@ -263,4 +263,5 @@ textarea {
     margin: 2rem 1rem;
   }
 }
+
 

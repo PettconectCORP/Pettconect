@@ -324,7 +324,7 @@ body {
 
 /* Botón visitar debajo descripción */
 .card-btn {
-  background-color: #306bca;
+  background-color: #306bac;
   color: white;
   border: none;
   border-radius: 25px;
@@ -500,4 +500,5 @@ h2 {
 .product {
   padding-top: 0 !important;
 }
+
 

@@ -124,7 +124,7 @@ body {
 }
 
 .tarjeta-vet button {
-  background-color: ##306bac;
+  background-color: #306bac;
   color: white;
   padding: 10px 20px;
   font-size: 14px;
@@ -241,6 +241,7 @@ body {
     max-width: 350px;
   }
 }
+
 
 
 

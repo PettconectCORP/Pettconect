@@ -166,7 +166,7 @@ body {
 }
 
 input[type="submit"] {
-  background-color: ##306bac;
+  background-color: #306bac;
   color: white;
   border: none;
   padding: 15px 0;
@@ -298,5 +298,6 @@ input[type="submit"]:hover {
     margin: 0 auto;
   }
 }
+
 
 

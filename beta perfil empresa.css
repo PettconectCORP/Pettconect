@@ -225,7 +225,7 @@ body {
 
 /* Botón agendar */
 .boton-agendar {
-  background-color: ##306bac;
+  background-color: #306bac;
   color: white;
   padding: 10px 18px;
   font-size: 16px;
@@ -368,5 +368,6 @@ body {
     margin-left: 0;
   }
 }
+
 
 

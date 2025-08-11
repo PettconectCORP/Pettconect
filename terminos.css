@@ -137,7 +137,7 @@ body {
 
 .boton-usuario,
 .boton-empresa {
-  background-color: #00b5cc;
+  background-color: #306bac;
   color: white;
   padding: 12px 25px;
   font-size: 16px;
@@ -189,4 +189,5 @@ body {
     justify-content: center;
   }
 }
+
 
